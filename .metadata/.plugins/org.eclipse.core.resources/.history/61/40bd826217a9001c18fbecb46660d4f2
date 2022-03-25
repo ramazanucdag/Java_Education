@@ -1,0 +1,128 @@
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Set;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class mainjavas {
+
+	public static void main(String[] args) {
+		
+		// element() kuyruðun baþýndaki öðeyi verir  ama onu kuyruktan atmaz
+		// offr(E o) mümkünse verilen öðeyi kuyruða ekler 
+		// peek() kuyruðun baþýndaki öðeyi verir ama onu kuyruktan atmaz kuyruk boþsa null verir
+		// pool() kuyruðun baþýndaki öðeyi verir ve onu kuyruktan atar kuyruk boþsa null verir 
+		// remove()  kuyruðun baþýndaki öðeyi verir ve onu kuyruktan atar
+
+	
+	   /* Queue q = new LinkedList();
+	    q.add("Deniz");
+	    q.add("Mehmet");
+	    
+	    q.offer("Ali");
+	    q.offer("Damla");
+	    
+	    System.out.println("remove() : " + q.remove());
+	    System.out.println("element() : " + q.element());
+	    System.out.println("element() : " + q.peek());
+	    
+	    
+	   q.forEach(i -> System.out.println(i));  */
+	 		
+	
+	
+/*	PriorityQueue q = new PriorityQueue();
+	
+	q.add(80);
+	q.add(20);
+	q.add(10);
+	q.add(50);
+	
+	while (q.isEmpty()) {
+		System.out.println(q.poll());
+	}
+	*/
+	
+	
+		
+		// clear () Map içinde bulunan bütün deðerleri siler
+		// get (Object key) Anahtara karþýlýk gelen objeyi döndürür
+		// put (Object key , Object value): Anahtara - deðer ikilisini kayýt eder  
+		
+		
+	HashMap b = new HashMap();
+	b.put("Türkiye", "Ankara");
+	b.put("Fransa", "Paris");
+	b.put("Ýngiltere", "Londra");
+	
+	Set s = b.entrySet();
+	Iterator i = (Iterator) s.iterator();
+	
+	while(i.hasNext()) {
+		Map.Entry item = (Map.Entry) i.next();
+		System.out.println(item.getKey() + " => " + item.getValue());
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

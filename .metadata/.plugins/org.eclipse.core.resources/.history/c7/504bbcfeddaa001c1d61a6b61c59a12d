@@ -1,0 +1,47 @@
+import java.awt.event.ActionEvent;
+
+import javax.swing.*;
+
+
+
+
+public class maain {
+
+	public static void main(String[] args) {
+
+      // JCheckBox
+	  // obj.setBounds(x,y,width,height); 
+		
+		
+		JFrame f = new JFrame("JCheckBox Örneði ");
+		JCheckBox ch1 = new JCheckBox("Evet ");
+		JCheckBox ch2 = new JCheckBox("Hayýr");
+		ch1.setBounds(150,100,250,50);
+		ch2.setBounds(150,150,250,50);
+		JButton btn = new JButton("Kontrol");
+		btn.setBounds(150,200,100,30);
+		btn.addActionListener(new ActionListener );
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

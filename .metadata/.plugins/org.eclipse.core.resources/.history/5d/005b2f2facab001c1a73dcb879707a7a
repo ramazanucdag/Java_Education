@@ -1,0 +1,69 @@
+package ComboBox;
+import java.awt.event.ActionEvent;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+
+public class TabbePane {
+
+	public static void main(String[] args) {
+		// JTabbePane
+		// obj.setBounds(x,y,width,height);
+
+	
+		JFrame f = new JFrame("JTabbePane Örneði ");
+	    
+		JLabel lb1 = new JLabel ("Ýlk alan");
+		JPanel p1 = new JPanel();
+		p1.add(lb1);
+		
+		JLabel lb2 = new JLabel ("Ýkinci alan");
+		JPanel p2 = new JPanel();
+		p1.add(lb2);
+		
+		JLabel lb3 = new JLabel ("Üçüncü alan");
+		JPanel p3 = new JPanel();
+		p1.add(lb3);
+		
+		JTabbedPane tp = new JTabbedPane();
+		tp.setBounds(50,5,200,200);
+		tp.add("ilk",p1);
+		tp.add("ikinci",p2);
+		tp.add("üçüncü",p3);
+		
+		f.add(tp);
+		f.setSize(400,400);
+		f.setLayout(null);
+		f.setVisible(true);
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

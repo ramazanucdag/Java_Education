@@ -1,0 +1,28 @@
+import java.sql.*;
+
+public class DBCon {
+
+	public static void main(String[] args) {
+		
+		Connection c = null;
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,69 @@
+import java.awt.event.AdjustmentEvent;
+import java.awt.event.AdjustmentListener;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JScrollBar;
+
+public class ScrollBar {
+
+	public static void main(String[] args) {
+		// JScrollBar
+		//  obj.setBounds(x,y,width,height);
+
+	
+		JFrame f = new JFrame("JScrollBar Örneði ");
+		JLabel lbl = new JLabel();
+		lbl.setBounds(100,50,300,30);
+		
+		JScrollBar s = new JScrollBar(JScrollBar.VERTICAL);
+		s.setMaximum(100);
+		s.setMinimum(0);
+		s.setBounds(100,100,50,100);
+		
+		s.addAdjustmentListener(new AdjustmentListener() {
+			
+			@Override
+			public void adjustmentValueChanged(AdjustmentEvent e) {
+			    lbl.setText("ScrollBar Deðeri : " + (s.getValue() + s.getModel().getExtent()));
+				
+			}
+	
+		
+		});	
+	
+	    
+		f.add(lbl);
+		f.add(s);
+		f.setSize(400,400);
+		f.setVisible(true);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,29 @@
+package ComboBox;
+import java.awt.event.ActionEvent;
+import javax.swing.JFrame;
+
+public class ProgressBar {
+
+	public static void main(String[] args) {
+		// JProgressBar
+		// obj.setBounds(x,y,width,height);
+		
+
+		JFrame f = new JFrame("JProgressBar Örneði ");
+		JProgressBar jb = new JProgressBar(0,2000);
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

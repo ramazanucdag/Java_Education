@@ -1,0 +1,28 @@
+import java.util.*;
+public class Mainjava {
+
+	public static void main(String[] args) {
+	    // ArrayList<E>
+		// LinkedList<E>
+		// Vector<E>
+		
+		
+		ArrayList country = new ArrayList();
+		country.add("Ankara");
+		country.add("Siirt");
+		country.add("Bolu");
+		country.add("Ankara");
+		
+		country.add("Ýstanbul");
+		country.remove(1);
+		
+		Iteretor itr = country.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+          
+		country.forEach(i -> System.out.println(i));
+	}
+
+}

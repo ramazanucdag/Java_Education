@@ -1,0 +1,28 @@
+import java.sql.*;
+
+public class DBCon {
+
+	public static void main(String[] args) throws SQLException {
+		
+		Connection c = DriverManeger.getConection("jdbc:mariadb//localhost:3306car?useer=root&password=1q2w3e");
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class OptionPane {
+
+	public static void main(String[] args) {
+		// OptionPane
+		// obj.setBounds(x,y,width,height);
+
+	}
+
+}

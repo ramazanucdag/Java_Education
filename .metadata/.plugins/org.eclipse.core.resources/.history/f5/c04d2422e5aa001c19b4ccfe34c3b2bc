@@ -1,0 +1,64 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+
+
+public class ComboBox {
+
+	public static void main(String[] args) {
+		// JComboBox
+		// obj.setBounds(x,y,width,height);
+
+		JFrame f = new JFrame("JComboBox Örneði ");
+		String arr[] = {"C","C#","C++","Java","Python"};
+		JComboBox cb = new JComboBox(arr);
+		cb.setBounds(50,100,90,20);
+		JButton btn = new JButton("Seç");
+		btn.setBounds(50, 150, 80,200);
+		
+		btn.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				String text = "Seçilen programlama dili: " + cb.getItemAt(cb.getSelectedIndex());
+				System.out.println(text);
+				
+			}
+		
+		
+		});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

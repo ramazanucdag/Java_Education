@@ -1,0 +1,14 @@
+
+public class Static {
+    
+	private int a = 10;
+	private int b = 2;
+	
+	public static class Inner{
+		int a = 1;
+		
+		public void run() {
+			System.out.println(a);
+		}
+	}
+}

@@ -1,0 +1,46 @@
+package ComboBox;
+
+import javax.swing.JFrame;
+
+public class PopupMenu {
+
+	public static void main(String[] args) {
+		// JPopupMenu
+		// obj.setBounds(x,y,width,height);
+		
+		JFrame f = new JFrame("PopupMenü Örneði ");
+		
+		
+		f.setSize(400,400);
+		f.setLayout(null);
+		f.setVisible(true);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

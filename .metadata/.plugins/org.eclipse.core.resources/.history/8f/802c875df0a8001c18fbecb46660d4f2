@@ -1,0 +1,54 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class mainjavas {
+
+	public static void main(String[] args) {
+		
+		// element() kuyruðun baþýndaki öðeyi verir  ama onu kuyruktan atmaz
+		// offr(E o) mümkünse verilen öðeyi kuyruða ekler 
+		// peek() kuyruðun baþýndaki öðeyi verir ama onu kuyruktan atmaz kuyruk boþsa null verir
+		// pool() kuyruðun baþýndaki öðeyi verir ve onu kuyruktan atar kuyruk boþsa null verir 
+		// remove()  kuyruðun baþýndaki öðeyi verir ve onu kuyruktan atar
+
+	
+	    Queue q = new LinkedList();
+	    q.add("Deniz");
+	    q.add("Mehmet");
+	    
+	    q.offer("Ali");
+	    q.offer("Damla");
+	    
+	    System.out.println("remove() : " + q.remove());
+	    System.out.println("element() : " + q.element());
+	    System.out.println("element() : " + q.peek());
+	    
+	    
+	   q.forEach(i -> System.out.println(i));
+	    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

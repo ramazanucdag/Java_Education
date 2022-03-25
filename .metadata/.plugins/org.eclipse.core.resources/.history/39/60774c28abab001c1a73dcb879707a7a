@@ -1,0 +1,11 @@
+package ComboBox;
+
+public class TabbePane {
+
+	public static void main(String[] args) {
+		// JTabbePane
+		// obj.setBounds(x,y,width,height);
+
+	}
+
+}

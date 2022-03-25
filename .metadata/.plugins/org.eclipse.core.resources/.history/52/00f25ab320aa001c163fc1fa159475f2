@@ -1,0 +1,31 @@
+import java.sql.*;
+import java.util.Scanner;
+
+public class DBCon {
+
+	public static void main(String[] args) throws SQLException {
+		
+		Connection c = DriverManager.getConnection("jdbc:mariadb://localhost:3306car?user=root&password=Ramazan.4521");
+        Statement st = c.createStatement();
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Araba Adý: ");
+        String name = scan.nextLine();
+        
+        System.out.print("Araba Hýzý: ");
+        int speed = scan.nextInt();
+        
+      
+        String query = "INSERT INTO cars (cars_name,cars_speed) VALUES ('"+ name +"',"+ speed +")";
+        int sonuc = st.executeUpdate(query);
+        System.out.println(sonuc);
+        st.close();
+	    
+	  
+	
+	 
+	   
+	
+	}
+
+}

@@ -1,0 +1,39 @@
+package ComboBox;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Layout {
+
+	public static void main(String[] args) {
+		
+		JFrame f = new JFrame("Layout");
+		
+		JButton jb1 = new JButton("b1");
+		JButton jb2 = new JButton("b2");
+		JButton jb3 = new JButton("b3");
+		JButton jb4 = new JButton("b4");
+		JButton jb5 = new JButton("b5");
+		
+		JPanel p = new JPanel();
+		p.setLayout(new BorderLayout());
+	/*	p.add(jb1 , BorderLayout.NORTH);
+		p.add(jb2 , BorderLayout.SOUTH);
+		p.add(jb3 , BorderLayout.WEST);
+		p.add(jb4 , BorderLayout.EAST);
+		p.add(jb5 , BorderLayout.CENTER); */
+		
+		f.add(p);
+		f.pack();
+		
+		f.setVisible(true);
+		
+		
+		
+
+	}
+
+}

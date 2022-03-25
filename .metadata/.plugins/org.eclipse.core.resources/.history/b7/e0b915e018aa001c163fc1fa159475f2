@@ -1,0 +1,19 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 // Graphical User Interface (GUI)
+		 // Swing : Sun Microsytems tarafýndan piyasaya sürülen resmi java GUI aracýdýr
+		
+		JFrame frame = new JFrame(); 
+		frame.setSize(200, 200);
+		JButton btn = new JButton ("Buton");
+		frame.getContentPane().add(btn);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+
+	}
+
+}

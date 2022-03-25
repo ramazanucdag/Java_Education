@@ -1,0 +1,65 @@
+import java.awt.event.ActionEvent;
+
+import javax.swing.DefaultBoundedRangeModel;
+import javax.swing.DefaultListModel;
+import javax.swing.JFrame;
+
+
+public class List {
+
+	public static void main(String[] args) {
+	
+	 // JList	
+	// obj.setBounds(x,y,width,height);
+		
+		JFrame f = new JFrame("List Örneði ");
+		
+		DefaultListModel<String> l = new DefaultListModel<>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

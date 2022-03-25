@@ -1,0 +1,17 @@
+
+public class NonStatic {
+
+	private int a = 10;
+	
+	
+	public class Inner {
+		
+		System.out.println(a);
+	}
+	
+	
+	
+	
+	
+	
+}

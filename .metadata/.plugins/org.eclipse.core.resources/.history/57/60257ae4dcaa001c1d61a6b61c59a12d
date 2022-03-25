@@ -1,0 +1,38 @@
+import java.awt.event.ActionEvent;
+
+
+
+public class maain {
+
+	public static void main(String[] args) {
+
+      // JCheckBox
+	  // obj.setBounds(x,y,width,height); 
+		
+		
+		JFrame f = new JFrame("JCheckBox Örneði ");
+		JCheckBox ch1 = new JCheckBox("Evet ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

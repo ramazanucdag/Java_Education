@@ -1,0 +1,43 @@
+package ComboBox;
+
+import javax.swing.JFrame;
+
+public class Menu {
+
+	public static void main(String[] args) {
+		// JMenu
+		// obj.setBounds(x,y,width,height);
+
+	
+		JFrame f = new JFrame("Menü Örneði ");
+		
+		
+		f.setSize(400,400);
+		f.setLayout(null);
+		f.setVisible(true);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

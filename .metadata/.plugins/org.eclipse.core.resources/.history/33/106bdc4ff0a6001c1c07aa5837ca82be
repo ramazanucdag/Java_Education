@@ -1,0 +1,6 @@
+
+public class Test {
+	public static void main(String[] args) {
+		Student s1 = Student.find("12");
+	}
+}

@@ -1,0 +1,80 @@
+
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+import javax.swing.JFrame;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JPopupMenu;
+
+public class PopupMenu {
+
+	public static void main(String[] args) {
+		// JPopupMenu
+		// obj.setBounds(x,y,width,height);
+		
+		JFrame f = new JFrame("PopupMenü Örneði ");
+		JPopupMenu pm = new JPopupMenu("Menü");
+		
+		JMenuItem cut = new JMenuItem("Kes");
+		JMenuItem copy = new JMenuItem("Kopyalý");
+		JMenuItem paste = new JMenuItem("Yapýþtýr");
+		
+		pm.add(cut);
+		pm.add(copy);
+		pm.add(paste);
+		
+		f.addMouseListener(new MouseAdapter() {
+		     public void mouseClicked(MouseEvent e) {
+		    	 
+		     }
+		
+		});
+		 
+		cut.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(f, "Kes butonuna týklandý");
+				
+			}
+		
+		});
+		
+		
+		f.setSize(400,400);
+		f.setLayout(null);
+		f.setVisible(true);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

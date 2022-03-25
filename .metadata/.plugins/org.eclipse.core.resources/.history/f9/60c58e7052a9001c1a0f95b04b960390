@@ -1,0 +1,15 @@
+
+public class Islemler implements Runnable {
+    String name;
+	
+		public Islemler(String name) {
+		this.name = name;
+	}
+  
+    @Override
+	public void run() {
+	
+		
+	}
+
+}

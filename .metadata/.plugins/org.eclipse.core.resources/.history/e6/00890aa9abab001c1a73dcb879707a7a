@@ -1,0 +1,45 @@
+package ComboBox;
+import java.awt.event.ActionEvent;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class TabbePane {
+
+	public static void main(String[] args) {
+		// JTabbePane
+		// obj.setBounds(x,y,width,height);
+
+	
+		JFrame f = new JFrame("JTabbePane Örneði ");
+	    
+		JLabel lbl = new JLabel ("Ýlk alan");
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

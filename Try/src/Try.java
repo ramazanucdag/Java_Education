@@ -1,0 +1,34 @@
+
+public class Try {
+
+	public static void main(String[] args) {
+	
+		
+		System.out.println("Program Baþladý ");
+	
+		
+		/* 
+		  int a = 0;
+		 
+	try {
+		 a = 2/0; // Hata yakaladýk
+		 System.out.println("Try içerisinde ");
+			System.out.println(a);
+	}catch(ArithmeticException e) {
+		System.out.println(e.getMessage());
+		
+	}	
+		*/
+		int[] arr = new int [3];
+		try {
+			arr[4] = 10;
+		}catch (ArryIndexOutOfBoundsException e ) {
+			System.out.println(e.toString());
+			
+		}
+		System.out.println("Program Bitti ");
+		
+		
+	}
+
+}
